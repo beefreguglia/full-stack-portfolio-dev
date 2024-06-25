@@ -1,16 +1,21 @@
-.card-dark {
-  padding: 20px;
+.project-card {
+  padding: 12px;
   border-radius: 12px;
-  background: var(--gray-100);
-  width: 280px;
+  background: var(--gray-300);
+  width: 330px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid var(--gray-200);
+  border: 1.5px solid transparent;
+  transition: 300ms;
+
+  &:hover {
+    border: 1.5px solid var(--gray-400);
+  }
 
   img {
-    width: 48px;
-    height: 48px;
+    border-radius: 8px;
   } 
 
   h4 {

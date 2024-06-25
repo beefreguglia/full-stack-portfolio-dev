@@ -54,6 +54,12 @@ section {
 }
 
 #services {
-  padding: 88px 120px 120px 120px;
+  padding: 88px 120px 120px;
   background-color: var(--gray-100);
+}
+
+#contact {
+  height: 100vh;
+  background: url(../assets/images/Background_Contacts.png) lightgray 50% / cover no-repeat;
+  padding: 128px 120px 200px 120px;
 }

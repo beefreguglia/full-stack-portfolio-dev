@@ -1,21 +1,16 @@
-.card {
-  padding: 12px;
+.service-card {
+  padding: 20px;
   border-radius: 12px;
-  background: var(--gray-300);
-  width: 330px;
-  height: 280px;
+  background: var(--gray-100);
+  width: 280px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 1.5px solid transparent;
-  transition: 300ms;
-
-  &:hover {
-    border: 1.5px solid var(--gray-400);
-  }
+  border: 2px solid var(--gray-200);
 
   img {
-    border-radius: 8px;
+    width: 48px;
+    height: 48px;
   } 
 
   h4 {

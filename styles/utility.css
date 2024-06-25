@@ -19,7 +19,11 @@
 }
 
 .gap-56 {
-  gap: 80px;
+  gap: 56px;
+}
+
+.gap-48 {
+  gap: 48px;
 }
 
 .gap-24 {
@@ -28,6 +32,10 @@
 
 .gap-16 {
   gap: 16px;
+}
+
+.gap-12 {
+  gap: 12px;
 }
 
 .gap-8 {
@@ -56,4 +64,12 @@
 
 .red {
   color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.gray-500 {
+  color: var(--gray-500);
 }
