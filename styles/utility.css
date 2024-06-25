@@ -2,8 +2,28 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .gap-80 {
   gap: 80px;
+}
+
+.gap-56 {
+  gap: 80px;
+}
+
+.gap-24 {
+  gap: 24px;
 }
 
 .gap-16 {
@@ -35,5 +55,5 @@
 }
 
 .red {
-  fill: var(--red);
+  color: var(--red);
 }
